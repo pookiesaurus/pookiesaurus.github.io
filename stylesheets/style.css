@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    height: 50px;
+    border-bottom: black 1px solid;
+    padding: 12.5px;
+    display: flex;
+}
+
+header img {
+    height: 50px;
+}
+
+header a {
+    border: 1px black solid;
+    border-radius: 24px;
+    height: 50px;
+    width: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 12.5px;
+}
+
+header div {
+    position: absolute;
+    left: 50%;
+    top: 37.5px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    padding: 12.5px;
+}
+
+main h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    padding-top: 12.5px;
+}
+
+table {
+    width: 100%;
+    padding-top: 25px;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+tr {
+}
+
+.title {
+    width: 30%;
+}
+
+.author {
+    width: 50%;
+}
+
+.date {
+    text-align: right;
+}
