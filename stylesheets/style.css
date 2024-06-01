@@ -4,14 +4,16 @@
     font-family: 'Times New Roman', Times, serif
 }
 
-header {
+#indexheader {
     height: 50px;
     border-bottom: black 1px solid;
-    padding: 12.5px;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: flex;
 }
 
-header img {
+#logo {
     height: 50px;
 }
 
@@ -26,7 +28,7 @@ header a {
     text-decoration: none;
     color: black;
     position: absolute;
-    right: 12.5px;
+    right: 50px;
 }
 
 header div {
@@ -71,4 +73,14 @@ td a {
 
 .date {
     text-align: right;
+}
+
+#indexmain {
+    padding: 50px;
+}
+
+#herotext {
+    font-family: "Newsreader", serif;
+    font-weight: 700;
+    font-size: 70px;
 }
